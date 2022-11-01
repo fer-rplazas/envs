@@ -1,0 +1,37 @@
+# Works with mamba
+channels:
+  - pytorch
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.10
+  - pytorch # use `pytorch-gpu` with conda and `pytorch` with mamba
+  - cpuonly
+  - mne-base
+  - numpy
+  - pandas
+  - scikit-learn
+  - pytorch-lightning
+  - scipy
+  - numba
+  - seaborn
+  - matplotlib
+  - ipykernel
+  - pip
+  - ipympl
+  - jupyterlab
+  - black
+  - h5py
+  - python-neo
+  - torchmetrics
+  - imbalanced-learn
+  - torchinfo
+  - cython
+  - liblsl
+  - pyqtgraph
+  - pip:
+    - colorednoise
+    - pymrmr
+    - pynvim
+    - pyright
+    - pylsl
