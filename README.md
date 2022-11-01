@@ -1,2 +1,2 @@
 
-Conda environment spefications with commonly used packages
+Conda environment specifications with commonly used packages
