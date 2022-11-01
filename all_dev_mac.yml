@@ -30,7 +30,7 @@ dependencies:
   - pyqtgraph
   - pip:
     - colorednoise
-    - pymrmr
+      #    - pymrmr # Needs to be installed manually due to GCC compilation (CC=gcc CXX=g++ pip install -U pymrmr)
     - pynvim
     - pyright
     - pylsl
