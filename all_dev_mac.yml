@@ -1,6 +1,6 @@
 #Works with mamba
 channels:
-  - pytorch
+  - pytorch-nightly # Use nightly for ARM GPU support
   - conda-forge
   - anaconda
 dependencies:
